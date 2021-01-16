@@ -1,5 +1,10 @@
 import React from "react";
+import "./root.component.css";
 
-export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+export default function Root() {
+  return (
+    <div className="app1-container">
+      <p>App1 is alive and kicking</p>
+    </div>
+  );
 }
